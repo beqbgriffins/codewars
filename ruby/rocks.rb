@@ -20,3 +20,12 @@ def rocks(n)
 
   syms_on_current_rank + remainder
 end
+
+
+################
+# refactor with chatgpt
+
+# def rocks(n)
+#   return n if n < 10
+#   n.digits.size * n - ('1' * n.digits.size).to_i + n.digits.size
+# end
